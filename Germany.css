@@ -1,0 +1,47 @@
+/* Styles */
+* {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAQQAAACcCAMAAACulCWiAAAAElBMVEUAAAD/zgDdAADrAADZAAD/3AApfWWWAAAAz0lEQVR4nO3QwVEDQBAEsZu1yT9lqI6ChxSC3gMAAAAAAAAAAAAAAAD4xz583nESTkIknIRIOAmRcBIi4SREwkmIhJMQCSchEk5CJJyESDgJkXASIuEkRMJJiISTEAknIRJOQiSchEg4CZFwEiLhJETCSYiEkxAJJyES/rwv3/fDzxuTMAmRMAmRMAmRMAmRMAmRMAmRMAmRMAmRMAmRMAmRMAmRMAmRMAmRMAmRMAmRMAmRMAmRMAmRMAmRMAmRMAmRMAmRMAmRMAn5BcTHpY30S2AzAAAAAElFTkSuQmCC');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+     
+}
+
+h1, h2 {
+    color: #e4d6d6;
+    text-align: center;
+}
+
+p {
+    line-height: 1.6;
+    color: #ffffff;
+    text-align: center;
+}
+
+.gallery-tittle {
+    color:black;
+}
+
+.germany-landmark-gallery > div > img {
+    width: 250px;
+    height: 175px;
+
+}
+
+.germany-landmark-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.germany-landmark-gallery > div > h3 {
+    text-align: center;
+    margin: auto;
+}
